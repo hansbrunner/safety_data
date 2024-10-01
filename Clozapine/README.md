@@ -16,15 +16,22 @@ This notebook focuses on understanding **when** adverse events occur after the i
 
 **Key topics include:**
 - **Time-to-onset analysis**: Exploring the time it takes for specific AEs to manifest after starting Clozapine.
-- **Cumulative risk analysis**: Using **Kaplan-Meier survival analysis** to assess how the likelihood of AEs increases over time and identifying **high-risk periods** for specific events.
+- **Cumulative risk analysis**: Using **Kaplan-Meier survival analysis** to assess how the likelihood of AEs increases over time
 
-### 3. **Adverse Event Co-occurrence Patterns and Machine Learning for Predictive Safety Signals** *(Coming Soon)*
+### 3. **Clozapine Adverse Event Temporal Trend Analysis**
 
-This notebook employs advanced data science techniques to uncover patterns in **AE co-occurrence** and predict the likelihood of certain AEs using **machine learning models**.
+This notebook focuses on the temporal changes in AE reporting for Clozapine. By applying **change point detection** algorithms, it identifies moments when the frequency of reported adverse events shifts. The findings from this analysis provide insights into how external factors (e.g., regulatory updates, changes in monitoring practices, and drug usage trends) impact AE reporting over time.
+
+**Key topics include:**
+- **Change point detection**: Utilizing the **Pruned Exact Linear Time (PELT)** algorithm and the **Radial Basis Function (RBF)** model, this section pinpoints significant shifts in AE reporting patterns. Change points, detected in **September 2016, December 2017, and March 2019.**
+
+### 4. **Adverse Event Co-occurrence Patterns** *(Coming Soon)*
+
+This notebook employs advanced data science techniques to uncover patterns in **AE co-occurrence**.
 
 **Key topics include:**
 - **Adverse Event Co-occurrence Patterns (Association Rule Mining)**: Using **association rule mining** to explore how different AEs tend to occur together in the same patients. For example, identifying whether **neutropenia** and **leukopenia** often co-occur, or if certain clusters of AEs (e.g., **blood-related** and **cardiovascular issues**) appear in the same patient population.
-- **Machine Learning for Predictive Safety Signals**: Developing **predictive models** to estimate the likelihood of patients developing specific AEs based on characteristics such as **age**, **gender**, **duration of treatment**, and **co-medications**.
+
 
 ### 4. **Convert AE PT to SOC Mapping for Clozapine Using ChatGPT**
 In this notebook, I use **ChatGPT** to map **MedDRA Preferred Terms (PTs)** to their corresponding **System Organ Classes (SOCs)**. This mapping is crucial for standardizing AE data and ensuring that analyses are aligned with established medical taxonomies.
