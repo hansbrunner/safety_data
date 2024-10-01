@@ -27,11 +27,7 @@ This notebook focuses on the temporal changes in AE reporting for Clozapine. By 
 
 ### 4. **Adverse Event Co-occurrence Patterns** *(Coming Soon)*
 
-This notebook employs advanced data science techniques to uncover patterns in **AE co-occurrence**.
-
-**Key topics include:**
-- **Adverse Event Co-occurrence Patterns (Association Rule Mining)**: Using **association rule mining** to explore how different AEs tend to occur together in the same patients. For example, identifying whether **neutropenia** and **leukopenia** often co-occur, or if certain clusters of AEs (e.g., **blood-related** and **cardiovascular issues**) appear in the same patient population.
-
+This notebook will hopefully cover data science techniques to uncover patterns in **AE co-occurrence**, such as **association rule mining**
 
 ### 4. **Convert AE PT to SOC Mapping for Clozapine Using ChatGPT**
 In this notebook, I use **ChatGPT** to map **MedDRA Preferred Terms (PTs)** to their corresponding **System Organ Classes (SOCs)**. This mapping is crucial for standardizing AE data and ensuring that analyses are aligned with established medical taxonomies.
